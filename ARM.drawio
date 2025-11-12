@@ -1,0 +1,84 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36" version="28.2.5">
+  <diagram name="Page-1" id="zstlQJ7XIi6uxSXWFcvn">
+    <mxGraphModel dx="901" dy="620" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="dJTGm-LcqyMT7G6nXB0s-1" value="&lt;font style=&quot;font-size: 17px;&quot;&gt;Authentication Station&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 17px;&quot;&gt;( bare metal )&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=5;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="170" y="250" width="220" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="dJTGm-LcqyMT7G6nXB0s-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dJTGm-LcqyMT7G6nXB0s-2" target="dJTGm-LcqyMT7G6nXB0s-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dJTGm-LcqyMT7G6nXB0s-2" value="&lt;font style=&quot;font-size: 17px;&quot;&gt;Weighing Station&lt;br&gt;( HAL )&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=0;strokeWidth=5;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="530" y="250" width="165" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="dJTGm-LcqyMT7G6nXB0s-5" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="dJTGm-LcqyMT7G6nXB0s-2" target="dJTGm-LcqyMT7G6nXB0s-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="520" y="360" as="sourcePoint" />
+            <mxPoint x="570" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dJTGm-LcqyMT7G6nXB0s-6" value="LCD display&lt;br&gt;( I2C )" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="553" y="110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dJTGm-LcqyMT7G6nXB0s-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dJTGm-LcqyMT7G6nXB0s-8" target="dJTGm-LcqyMT7G6nXB0s-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dJTGm-LcqyMT7G6nXB0s-8" value="Load cell + HX711 ADC&lt;br&gt;( GPIO )" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="433" y="420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dJTGm-LcqyMT7G6nXB0s-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dJTGm-LcqyMT7G6nXB0s-10" target="dJTGm-LcqyMT7G6nXB0s-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dJTGm-LcqyMT7G6nXB0s-10" value="Load cell 2 + HX711 ADC&lt;br&gt;( GPIO )" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="673" y="420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dJTGm-LcqyMT7G6nXB0s-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dJTGm-LcqyMT7G6nXB0s-12" target="dJTGm-LcqyMT7G6nXB0s-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dJTGm-LcqyMT7G6nXB0s-12" value="RFID Reader&amp;nbsp;&lt;br&gt;( SPI )" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dJTGm-LcqyMT7G6nXB0s-14" value="KEYPAD&lt;br&gt;( GPIO )" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dJTGm-LcqyMT7G6nXB0s-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="dJTGm-LcqyMT7G6nXB0s-1" target="dJTGm-LcqyMT7G6nXB0s-15">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="120" y="328" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dJTGm-LcqyMT7G6nXB0s-15" value="LCD DISPLAY&lt;br&gt;( I2C )" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry y="275" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="dJTGm-LcqyMT7G6nXB0s-17" value="&lt;font style=&quot;font-size: 17px;&quot;&gt;ESP8226 WiFi Module&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=4;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="210" y="530" width="150" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="dJTGm-LcqyMT7G6nXB0s-18" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.467;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="dJTGm-LcqyMT7G6nXB0s-17" target="dJTGm-LcqyMT7G6nXB0s-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="310" y="610" as="sourcePoint" />
+            <mxPoint x="360" y="560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dJTGm-LcqyMT7G6nXB0s-19" value="USART 1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="210" y="430" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="dJTGm-LcqyMT7G6nXB0s-20" value="USART 6" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="440" y="275" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="dJTGm-LcqyMT7G6nXB0s-21" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.097;entryY=-0.032;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="dJTGm-LcqyMT7G6nXB0s-14" target="dJTGm-LcqyMT7G6nXB0s-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="310" y="390" as="sourcePoint" />
+            <mxPoint x="360" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dJTGm-LcqyMT7G6nXB0s-22" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="dJTGm-LcqyMT7G6nXB0s-1" target="dJTGm-LcqyMT7G6nXB0s-12">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="310" y="390" as="sourcePoint" />
+            <mxPoint x="360" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
